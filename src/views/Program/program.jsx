@@ -5,7 +5,12 @@ import PageNote from '../pageNote.jsx/pageNote'
 export default function Program() {
   return (
     <div className='program'>
-    <PageNote />
+      <div style={{ textAlign: 'center', marginTop: '40px', fontSize: '2rem', fontWeight: 'bold' }}>
+        Announcement will be made soon.
+      </div>
+      <div style={{ display: 'none' }}>
+        <PageNote />
+      </div>
     </div>
   )
 }

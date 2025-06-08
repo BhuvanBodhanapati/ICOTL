@@ -4,7 +4,10 @@ import './importantDates.css'
 export default function ImportantDates() {
   return (
     <div className="impDatesBody">
-      <div className="impDateBar">
+      <div className="comingSoonMessage" style={{ textAlign: 'center', marginTop: '40px', fontSize: '2rem', fontWeight: 'bold' }}>
+        Announcement will be made soon.
+      </div>
+      <div className="impDateBar" style={{ display: 'none' }}>
         <div className="uptimepointBox box1">
           <div className="date">
             <h3 className="dateTitle">
@@ -77,7 +80,7 @@ export default function ImportantDates() {
         <div className="uptimepointBox box7">
           <div className="date">
             <h3 className="dateTitle">
-              7<sup>th</sup> - 8<sup>th</sup> December 2023
+              6<sup>th</sup> - 7<sup>th</sup> February 2026
             </h3>
             <h3 className="">Date of Conference </h3>
           </div>

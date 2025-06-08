@@ -11,7 +11,7 @@ export default function Venue() {
           <div className="venueDetailsBody">
             <div>
               <p className="venueHeader">
-                In Person | Bengaluru | 7<sup>th </sup>- 8<sup>th</sup> December, 2023
+                In Person | Bengaluru | 7<sup>th </sup>- 8<sup>th</sup> December, 2026
               </p>
               <p className="venueTitle">Clarks Exotica Convention Resort</p>
               <span>

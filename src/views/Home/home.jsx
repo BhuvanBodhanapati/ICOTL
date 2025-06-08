@@ -70,9 +70,9 @@ export default function Home() {
         <img src={mitsImg} alt="Nature" className="homeImg" />
         <div class="text-block">
           <div>
-            <p className="line_1">ICOTL 2023</p>
+            <p className="line_1">ICOTL 2026</p>
             <p className="line_2">
-              1<sup>st </sup><span className="mainLetter">I</span>nternational{" "}
+              2<sup>nd </sup><span className="mainLetter">I</span>nternational{" "}
               <span className="mainLetter">C</span>onference
             </p>
             <p className="line_3"> on </p>
@@ -81,17 +81,17 @@ export default function Home() {
               <span className="mainLetter">T</span>echniques for{" "}
               <span className="mainLetter">L</span>earning
             </p>
-            <p className="line_5">7-8 December 2023 (Hybrid Mode)</p>
+            <p className="line_5">February 6-7, 2026 (Hybrid Mode)</p>
           </div>
             <CountDown/>
         </div>
       </div>
-      <Marque />
+      {/* <Marque /> */}
       <div className="homePageLogosDiv">
         <img src={homePageImages2} alt="Nature" className="homePageLogo" />
         <img src={homePageImages1} alt="Nature" className="homePageLogo" />
-        <img src={homePageImages3} alt="Nature" className="homePageLogo" />
-        <img src={homePageImages4} alt="Nature" className="homePageLogo" />
+        {/* <img src={homePageImages3} alt="Nature" className="homePageLogo" />
+        <img src={homePageImages4} alt="Nature" className="homePageLogo" /> */}
       </div>
       <div className="HomePageCard">
       <Card
@@ -119,8 +119,8 @@ export default function Home() {
           <CardContent>
             <p className="cardTitle">About Conference</p>
             <div className="cardText">
-              The 1st International Conference on Optimization Techniques for
-              Learning (ICOTL 2023) is a major international conference to bring
+              The 2nd International Conference on Optimization Techniques for
+              Learning (ICOTL 2026) is a major international conference to bring
               together researchers, engineers, and scientists from academia and
               industry working in Machine Learning and Data Science and their
               applications in different scientific, technical, and social
@@ -162,24 +162,6 @@ export default function Home() {
             </div>
           </CardContent>
         </Card>
-        <div className="bangaloreImagesDiv">
-          <p className="title">About Bengaluru</p>
-          <ImageList>
-            {/* <ImageListItem key="Subheader" cols={2}></ImageListItem> */}
-            {itemData.map((item) => (
-              <ImageListItem key={item.img}>
-                <img
-                  src={item.img}
-                  srcSet={item.img}
-                  alt={item.title}
-                  loading="lazy"
-                  className="bangaloreImg"
-                />
-                <ImageListItemBar title={item.title} subtitle={item.subtitle} />
-              </ImageListItem>
-            ))}
-          </ImageList>
-        </div>
       </div>
     </div>
   );

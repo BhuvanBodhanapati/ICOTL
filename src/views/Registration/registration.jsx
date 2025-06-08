@@ -58,132 +58,137 @@ export default function Registration() {
 
   return (
     <div className="registrationBody">
-      <div className="tableTitle">
-        <label>Early Bird Registration</label>
-        <p>(Authors need early bird registration)</p>
+      <div style={{ textAlign: 'center', marginTop: '40px', fontSize: '2rem', fontWeight: 'bold' }}>
+        Announcement will be made soon.
       </div>
-      <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 700 }}>
-          <TableHead>
-            <StyledTableCell></StyledTableCell>
-            <StyledTableCell align="center">IEEE Member</StyledTableCell>
-            <StyledTableCell align="center">Non IEEE Member</StyledTableCell>
-            <StyledTableCell align="center">
-              LifeTime IEEE Member
-            </StyledTableCell>
-            <StyledTableCell align="center">
-              Student IEEE Member
-            </StyledTableCell>
-            <StyledTableCell align="center">
-              Student Non IEEE Member
-            </StyledTableCell>
-          </TableHead>
-          <TableBody>
-            <StyledTableRow>
-              <StyledTableBodyCell component="th" scope="row" align="center">
-                Indian
-              </StyledTableBodyCell>
-              <StyledTableCell align="center"> 8,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 10,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 4,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 5,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 6,000 INR</StyledTableCell>
-            </StyledTableRow>
-            <StyledTableRow>
-              <StyledTableBodyCell component="th" scope="row" align="center">
-                For Indian Author
-              </StyledTableBodyCell>
-              <StyledTableCell align="center" colSpan={5}>
-                {" "}
-                For IEEE Publication, additional 2,000 INR per paper.<br/>
-                With one registration at most 2 papers could be published. Extra page charge 500 INR per page
+      <div style={{ display: 'none' }}>
+        <div className="tableTitle">
+          <label>Early Bird Registration</label>
+          <p>(Authors need early bird registration)</p>
+        </div>
+        <TableContainer component={Paper}>
+          <Table sx={{ minWidth: 700 }}>
+            <TableHead>
+              <StyledTableCell></StyledTableCell>
+              <StyledTableCell align="center">IEEE Member</StyledTableCell>
+              <StyledTableCell align="center">Non IEEE Member</StyledTableCell>
+              <StyledTableCell align="center">
+                LifeTime IEEE Member
               </StyledTableCell>
-            </StyledTableRow>
-            <StyledTableRow>
-              <StyledTableBodyCell component="th" scope="row" align="center">
-                Non Indian
-              </StyledTableBodyCell>
-              <StyledTableCell align="center">250 USD</StyledTableCell>
-              <StyledTableCell align="center">300 USD</StyledTableCell>
-              <StyledTableCell align="center">125 USD</StyledTableCell>
-              <StyledTableCell align="center">125 USD</StyledTableCell>
-              <StyledTableCell align="center">150 USD</StyledTableCell>
-            </StyledTableRow>
-            <StyledTableRow>
-              <StyledTableBodyCell component="th" scope="row" align="center">
-                For Non Indian Author
-              </StyledTableBodyCell>
-              <StyledTableCell align="center" colSpan={5}>
-                One paper free of charge. 1 additional paper for 25 USD
+              <StyledTableCell align="center">
+                Student IEEE Member
               </StyledTableCell>
-            </StyledTableRow>
-          </TableBody>
-        </Table>
-      </TableContainer>
+              <StyledTableCell align="center">
+                Student Non IEEE Member
+              </StyledTableCell>
+            </TableHead>
+            <TableBody>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  Indian
+                </StyledTableBodyCell>
+                <StyledTableCell align="center"> 8,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 10,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 4,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 5,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 6,000 INR</StyledTableCell>
+              </StyledTableRow>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  For Indian Author
+                </StyledTableBodyCell>
+                <StyledTableCell align="center" colSpan={5}>
+                  {" "}
+                  For IEEE Publication, additional 2,000 INR per paper.<br/>
+                  With one registration at most 2 papers could be published. Extra page charge 500 INR per page
+                </StyledTableCell>
+              </StyledTableRow>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  Non Indian
+                </StyledTableBodyCell>
+                <StyledTableCell align="center">250 USD</StyledTableCell>
+                <StyledTableCell align="center">300 USD</StyledTableCell>
+                <StyledTableCell align="center">125 USD</StyledTableCell>
+                <StyledTableCell align="center">125 USD</StyledTableCell>
+                <StyledTableCell align="center">150 USD</StyledTableCell>
+              </StyledTableRow>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  For Non Indian Author
+                </StyledTableBodyCell>
+                <StyledTableCell align="center" colSpan={5}>
+                  One paper free of charge. 1 additional paper for 25 USD
+                </StyledTableCell>
+              </StyledTableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
 
-      <div className="tableTitle">
-        <label>Late Registration</label>
-        <p>
-          (After October 15<sup>th</sup>, 2023)
-        </p>
-      </div>
-      {/* <div style={{maxHeight:300}}>
-        <PageNote/>
-      </div> */}
-      <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 700 }}>
-          <TableHead>
-            <StyledTableCell></StyledTableCell>
-            <StyledTableCell align="center">IEEE Member</StyledTableCell>
-            <StyledTableCell align="center">Non IEEE Member</StyledTableCell>
-            <StyledTableCell align="center">
-              LifeTime IEEE Member
-            </StyledTableCell>
-            <StyledTableCell align="center">
-              Student IEEE Member
-            </StyledTableCell>
-            <StyledTableCell align="center">
-              Student Non IEEE Member
-            </StyledTableCell>
-          </TableHead>
-          <TableBody>
-            <StyledTableRow>
-              <StyledTableBodyCell component="th" scope="row" align="center">
-                Indian
-              </StyledTableBodyCell>
-              <StyledTableCell align="center"> 10,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 12,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 4,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 7,000 INR</StyledTableCell>
-              <StyledTableCell align="center"> 8,000 INR</StyledTableCell>
-            </StyledTableRow>
-            <StyledTableRow>
-              <StyledTableBodyCell component="th" scope="row" align="center">
-                Foreigner
-              </StyledTableBodyCell>
-              <StyledTableCell align="center">300 USD</StyledTableCell>
-              <StyledTableCell align="center">350 USD</StyledTableCell>
-              <StyledTableCell align="center">125 USD</StyledTableCell>
-              <StyledTableCell align="center">125 USD</StyledTableCell>
-              <StyledTableCell align="center">150 USD</StyledTableCell>
-            </StyledTableRow>
-          </TableBody>
-        </Table>
-      </TableContainer>
+        <div className="tableTitle">
+          <label>Late Registration</label>
+          <p>
+            (After February 6<sup>th</sup>, 2026)
+          </p>
+        </div>
+        {/* <div style={{maxHeight:300}}>
+          <PageNote/>
+        </div> */}
+        <TableContainer component={Paper}>
+          <Table sx={{ minWidth: 700 }}>
+            <TableHead>
+              <StyledTableCell></StyledTableCell>
+              <StyledTableCell align="center">IEEE Member</StyledTableCell>
+              <StyledTableCell align="center">Non IEEE Member</StyledTableCell>
+              <StyledTableCell align="center">
+                LifeTime IEEE Member
+              </StyledTableCell>
+              <StyledTableCell align="center">
+                Student IEEE Member
+              </StyledTableCell>
+              <StyledTableCell align="center">
+                Student Non IEEE Member
+              </StyledTableCell>
+            </TableHead>
+            <TableBody>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  Indian
+                </StyledTableBodyCell>
+                <StyledTableCell align="center"> 10,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 12,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 4,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 7,000 INR</StyledTableCell>
+                <StyledTableCell align="center"> 8,000 INR</StyledTableCell>
+              </StyledTableRow>
+              <StyledTableRow>
+                <StyledTableBodyCell component="th" scope="row" align="center">
+                  Foreigner
+                </StyledTableBodyCell>
+                <StyledTableCell align="center">300 USD</StyledTableCell>
+                <StyledTableCell align="center">350 USD</StyledTableCell>
+                <StyledTableCell align="center">125 USD</StyledTableCell>
+                <StyledTableCell align="center">125 USD</StyledTableCell>
+                <StyledTableCell align="center">150 USD</StyledTableCell>
+              </StyledTableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
 
-      <div className="tableTitle">
-        <label>Registration Notes</label>
+        <div className="tableTitle">
+          <label>Registration Notes</label>
+        </div>
+        <List>
+          {RegistrationNotes.map((rule) => (
+            <ListItem className="registrationNoteListItem">
+              <ListItemIcon className="notesListItemIcon">
+                <Brightness1Icon fontSize="10px" className="brightnessIcon" />
+              </ListItemIcon>
+              <ListItemText>{rule}</ListItemText>
+            </ListItem>
+          ))}
+        </List>
       </div>
-      <List>
-        {RegistrationNotes.map((rule) => (
-          <ListItem className="registrationNoteListItem">
-            <ListItemIcon className="notesListItemIcon">
-              <Brightness1Icon fontSize="10px" className="brightnessIcon" />
-            </ListItemIcon>
-            <ListItemText>{rule}</ListItemText>
-          </ListItem>
-        ))}
-      </List>
     </div>
   );
 }

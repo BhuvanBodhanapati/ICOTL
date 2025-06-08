@@ -5,14 +5,17 @@ import { setRef } from "@material-ui/core";
 
 
 const CountDown = () => {
-  const countToDate = new Date("December 06, 2023 23:59:59");
+  const countToDate = new Date("February 06, 2026 00:00:00");
   let previousTimeBetweenDates;
 
   useEffect(() => {
     const interval = setInterval(() => {
       const currentDate = new Date();
       const timeBetweenDates = Math.ceil((countToDate - currentDate) / 1000);
-      flipAllCards(timeBetweenDates);
+      // Only run flipAllCards if timer elements exist in the DOM
+      if (document.querySelector('[data-days-hundreds]')) {
+        flipAllCards(timeBetweenDates);
+      }
       previousTimeBetweenDates = timeBetweenDates;
     }, 250);
 

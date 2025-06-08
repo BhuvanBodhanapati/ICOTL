@@ -54,7 +54,7 @@ export default function Submission() {
         necessary corrections and modifications suggested by the reviewers in
         the final camera ready manuscript and upload the final papers on or
         before 15
-        <sup>th</sup> October, 2023. Paper should conform to IEEE format and
+        <sup>th</sup> October, 2026. Paper should conform to IEEE format and
         certified by "pdf express".
         {/* Papers for presentations should conform to
         the IEEE format and specifications. Authors to submit the full final
@@ -63,7 +63,7 @@ export default function Submission() {
         length charges. Please check "Registration" for details.{" "} */}
       </p>
       <a
-        href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICOTL2023"
+        href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICOTL2026"
         target={"_blank"}
         className="submissionBtn"
       >
